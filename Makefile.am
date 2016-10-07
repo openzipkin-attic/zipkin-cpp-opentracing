@@ -8,6 +8,8 @@ nobase_include_HEADERS = zipkin/collector.h
 
 libzipkin_la_LDFLAGS = -version-info 1:0:0
 
+pkgconfigdir = $(libdir)/pkgconfig
+pkgconfig_DATA = libzipkin.pc
 
 ACLOCAL_AMFLAGS = -I m4
 
