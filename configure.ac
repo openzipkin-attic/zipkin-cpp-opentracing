@@ -23,5 +23,6 @@ AC_HEADER_STDC
 
 AC_CONFIG_FILES([
  Makefile
+ libzipkin.pc
 ])
 AC_OUTPUT
